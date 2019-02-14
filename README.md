@@ -3,8 +3,8 @@ Generate XML file for "immediate scheduled task" GPO configuration. Template bor
 https://github.com/rasta-mouse/GPO-Abuse/blob/master/scheduled-tasks.md and
 https://github.com/PowerShellMafia/PowerSploit/blob/master/Recon/PowerView.ps1
 (see New-GPOImmediateTask - note this function has been discontinued in the latest version
-of PowerView). One improvement I made (I mean I think it's an improvement :)) is that the
-commands are appropriately XML encoded (i.e. & -> &amp; etc.)
+of PowerView). One small improvement I made is that the commands are appropriately
+XML encoded (i.e. & -> &amp; etc.)
 
 For usage info see https://rastamouse.me/2019/01/gpo-abuse-part-2/.
 
